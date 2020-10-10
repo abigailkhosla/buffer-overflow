@@ -4,7 +4,7 @@
 int sampleString(){
                   char buffer[600];
                   int characters_read;
-                  printf("Enter some string:\n");
+                  printf("Enter a string:\n");
                   characters_read = read(0, buffer, 1000);
                   printf("You entered: %s", buffer);
                   return 0;
